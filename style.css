@@ -136,7 +136,11 @@ video {
   --extra-extra-large: 1400px;
 } */
 
-
+@media screen and (max-width: 360px) {
+  #footer-links {
+    justify-self: start;
+  }
+}
 
 @media screen and (min-width: 576px) {
   #hero-container > h2 {
@@ -149,6 +153,10 @@ video {
 
   .content-image {
     height: 300px;
+  }
+
+  #footer-links {
+    justify-self: end;
   }
 }
 
